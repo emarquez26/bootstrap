@@ -1,0 +1,9 @@
+#galeria{
+    width: 603px;
+}
+#galeria img{
+    padding: .2em;
+    border: 1px solid gray;
+    float: left;
+    margin: 1em;
+}
