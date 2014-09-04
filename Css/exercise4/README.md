@@ -1,0 +1,10 @@
+exercise 4
+
+Eliminar el borde gris que muestran por defecto todos los elementos.
+El elemento #menu debe tener un borde inferior de 1 píxel y azul (#004C99).
+El elemento #noticias muestra un borde de 1 píxel y gris claro (#C5C5C5).
+El elemento #publicidad debe mostrar un borde discontinuo de 1 píxel y de color #CC6600.
+El lateral formado por el elemento #secundario muestra un borde de 1 píxel y de color #CC6600.
+El elemento #pie debe mostrar un borde superior y otro inferior de 1 píxel y color gris claro #C5C5C5.
+
+el resultado debe ser igual al mostrado en la imagen que se encuentra en "/images/exercise4.jpg"

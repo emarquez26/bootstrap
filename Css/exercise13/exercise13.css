@@ -1,0 +1,124 @@
+body{
+    background-color: #F2F5FE;
+    background-image:url(images/imagenes/fondo.gif);
+    font-family: verdana;
+    color: #192666;
+}
+#contenedor{
+     width:770px;
+}
+#cabecera{
+  position: relative;
+  height: 100px;
+  background: #233C9B url("../imagenes/cabecera.jpg") no-repeat;
+  color: #FFF;
+}
+#cabecera #logo {
+  position: absolute;
+  top: 35px;
+  left: 35px;
+}
+#cabecera #buscador {
+  position: absolute;
+  top: 40px;
+  right: 20px;
+}
+ 
+#cabecera #buscador legend {
+  display: none;
+}
+#contenido #principal {
+  float: left;
+  width: 530px;
+  margin-top: 15px;
+  background: #FFF;
+}
+#contenido #secundario {
+  float: left;
+  width: 200px;
+  background: #CEDBF9 url("../imagenes/fondo_columna.gif") no-repeat;
+  position: relative;
+   left: 100px
+}
+#pie {
+  clear: both;
+  height: 60px;
+  margin-bottom: 50px;
+  background: url("../imagenes/fondo_pie.jpg") no-repeat;
+  color: #6685CC;
+  position: relative;
+}
+#menu {
+  background: #192666;
+  margin: 0 5px;
+}
+ul{
+    list-style: none;
+}
+#menu ul li{
+    float: left
+}
+#menu ul li a{
+    background-color: #253575;
+    color: #B5C4E3;
+    text-decoration: none;
+    margin: .1em;
+}
+#menu ul li a:hover{
+    background-color: #31479B;
+}
+#menu ul li a:active{
+    background-color: white;
+    color: #FF9000;
+}
+.fecha{
+    padding: .9em;
+    text-align: right;
+    background: url(images/imagenes/icono_fecha.gif) no-repeat left;
+}
+.categoria{
+    padding: .9em;
+    text-align: right;
+    background: url(images/imagenes/icono_categoria.gif) no-repeat left;
+}
+.autor{
+    padding: .9em;
+    text-align: right;
+    background: url(images/imagenes/icono_autor.gif) no-repeat left;
+}
+.comentarios{
+    padding: .9em;
+    text-align: right;
+    background: url(images/imagenes/icono_comentarios.gif) no-repeat left;
+}
+.info{
+    width: 650px;
+}
+#contenido #secundario #sobremi img {
+  float: left;
+  margin: .3em;
+}
+#contenido #secundario ul {
+  margin: 15px 0;
+  padding: 0;
+  list-style:none;
+}
+ 
+#contenido #secundario li {
+  border-bottom: 1px solid #E0E8FA;
+}
+ 
+#contenido #secundario li a {
+  display: block;
+  padding: 2px 0 2px 30px;
+  background: url("images/imagenes/icono_elemento.gif") no-repeat left;
+  text-decoration: none;
+}
+ 
+#contenido #secundario li a:hover {
+  background-color: #E0E8FA;
+  color: #192666;
+}
+#contenido #secundario li a:active{
+    background-image: url(images/imagenes/icono_elemento_seleccionado.gif);
+}

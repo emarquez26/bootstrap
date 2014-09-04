@@ -1,0 +1,29 @@
+table th, table td{
+    text-align: center;
+    font-family: arial;
+    border-color: #333;
+}
+table tr th#gris{
+    background-image: url(images/fondo_gris.gif);
+}
+table tr th.euro{
+    background: url(images/euro.png) no-repeat left;
+    width: 100px;
+    text-align: right;
+}
+table tr th.dolar{
+    background: url(images/dolar.png) no-repeat left;
+    width: 100px;
+}
+table tr th.libra{
+    background: url(images/libra.png) left no-repeat;
+    width: 100px;
+    text-align: right;
+}
+table tr th.yen{
+    background: url(images/yen.png) left no-repeat;
+    width: 100px;
+}
+table tr:nth-child(odd){
+    background-color: #FFFFCC;
+}

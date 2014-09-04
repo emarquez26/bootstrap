@@ -1,0 +1,145 @@
+/* === IMPORTANTE ===================================================
+   No modificar estos estilos, ya que son imprescindibles para
+   que la página se vea correctamente.
+   ================================================================== */
+
+/*-- Básico ----------------------------------------------------------*/
+ul, ul li { margin: 0; padding: 0; list-style: none; }
+h1, h2, h3, p, form { margin: 0; padding: 0; }
+.clear { clear: both; }
+img { border: none; }
+
+/*-- Layout ----------------------------------------------------------*/
+#contenedor {
+  width: 90%;
+  max-width: 900px;
+  width: expression(document.body.clientWidth > 901? "900px": "auto");
+  margin: 0 auto;
+}
+
+#cabecera, #menu, #lateral, #contenido, #contenido #principal, #contenido #secundario, #pie {
+  border: 0px solid #777;
+}
+
+#cabecera { clear: both; }
+#menu { clear: both;}
+#lateral { float: left; width: 20%; font-size: .9em;}
+#contenido { float: right; width: 78%; }
+#contenido #principal { float: left; width: 78%; }
+#contenido #secundario { float: right; width: 20%; border:1px double #CC6600; }
+#pie { clear: both; }
+
+/*-- Cabecera --------------------------------------------------------*/
+#cabecera #logo { float: left; }
+#cabecera #buscador { float: right; }
+
+/*-- Menu ------------------------------------------------------------*/
+#menu ul#menu_principal li { display: inline; float: left; }
+
+/*-- Sección Principal -----------------------------------------------*/
+#contenido #principal .articulo img { width: 100px; float: left; }
+
+/*-- Pie de página ---------------------------------------------------*/
+#pie .enlaces   { float: left; }
+#pie .copyright { float: right; }
+
+#cabecera,
+#menu,
+#lateral,
+#lateral #noticias,
+#lateral #publicidad,
+#contenido,
+#contenido #principal,
+#contenido #secundario,
+#pie {
+  padding: .5em;
+}
+ 
+#lateral {
+  padding: 0;
+}
+ 
+#cabecera {
+  padding: 1em;
+}
+ 
+#menu {
+  margin-bottom: .5em;
+   border-bottom: 1px ridge #004C99;
+    background-image: url(images/fondo_menu.gif);
+}
+ 
+#contenido {
+  width: 77%;
+  padding: 0;
+}
+ 
+#contenido #principal {
+  width: 73%;
+}
+ 
+#pie {
+  padding: .5em 0;
+  margin-top: 1em;
+  border-top: 1px solid #C5C5C5;
+  border-bottom: 1px solid #C5C5C5;
+  background-color: #F8F8F8;
+}
+ 
+#contenido #principal .articulo {
+  margin-bottom: 1em;
+}
+ 
+#contenido #principal .articulo img { 
+  margin: .5em;
+}
+ 
+#lateral #publicidad {
+  margin-top: 1em;
+   border: 1px dashed #CC6600;
+  background-color: #FFF6CD;
+   color: #555;
+}
+#noticias{
+    border: 1px solid #C5C5C5;
+    background-color: #F8F8F8;
+}
+#secundario h2{
+    background-color: #DB905C;
+    padding: .2em;
+    color: white;
+    font-size: .9em;
+}
+h1{
+    background-image: url(images/logo.gif);
+}
+.articulo h2{
+    color: #CC6600;
+    font-size: 1.6em;
+    line-height: 1.2;
+    margin-bottom: .3em;
+}
+#menu li, #menu a{
+    margin-right: 1em;
+    color: white;
+    font-size: 1.3em;
+}
+#lateral p span.fecha{
+    color: #999;
+    display: block;
+}
+#lateral #noticias h3{
+  color: #036;
+}
+#lateral #publicidad a{
+    color: #CC6600;
+}
+.articulo a{
+    color: #CC6600;
+}
+.articulo p{
+    margin-top: .3em; margin-bottom: .3em;
+}
+#pie a{
+    color: blue;
+}
